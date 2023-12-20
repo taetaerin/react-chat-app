@@ -31,7 +31,7 @@ function LoginPage() {
   }
   return (
     <div className='auth-wrapper'>
-      <div>
+      <div style={{textAlign: 'center'}}>
         <h3>로그인</h3>
       </div>
       <form onSubmit={handleSubmit(onSubmit)}>
